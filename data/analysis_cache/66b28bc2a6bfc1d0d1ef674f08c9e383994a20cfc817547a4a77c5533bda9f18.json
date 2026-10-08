@@ -1,0 +1,425 @@
+{
+  "image_analysis": {
+    "scene": {
+      "scene_type": "Urban / Automotive / Road",
+      "direct_observations": [
+        "Scene contains no visible human subjects",
+        "Visible primary objects: Shattered / Cracked screen fracture, beach wagon, minivan",
+        "Visual atmosphere is neutral / balanced",
+        "Direct visual evidence of surface fracturing (Shattered / Cracked screen fracture)"
+      ],
+      "contextual_interpretations": [
+        "The physical hardware has experienced severe impact or accidental defect, disrupting normal usage."
+      ],
+      "observation_confidence": 0.92,
+      "interpretation_confidence": 0.84,
+      "summary": "Scene contains no visible human subjects | Visible primary objects: Shattered / Cracked screen fracture, beach wagon, minivan | Visual atmosphere is neutral / balanced | Direct visual evidence of surface fracturing (Shattered / Cracked screen fracture) -> The physical hardware has experienced severe impact or accidental defect, disrupting normal usage."
+    },
+    "entities": [
+      {
+        "entity": "Shattered / Cracked screen fracture",
+        "category": "non_living",
+        "subcategory": "damaged_hardware",
+        "location": "center-display",
+        "relative_size": "dominant",
+        "visible_attributes": [
+          "crack density 6.78%",
+          "spiderweb fracture lines"
+        ],
+        "quantity": 1,
+        "confidence": 0.89,
+        "interactions": "physical structural impact / defect",
+        "importance": "primary"
+      },
+      {
+        "entity": "beach wagon",
+        "category": "non_living",
+        "subcategory": "environmental",
+        "location": "center",
+        "relative_size": "dominant",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.414,
+        "interactions": "positioned in context",
+        "importance": "primary"
+      },
+      {
+        "entity": "minivan",
+        "category": "non_living",
+        "subcategory": "object",
+        "location": "center-left",
+        "relative_size": "medium",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.102,
+        "interactions": "positioned in context",
+        "importance": "secondary"
+      },
+      {
+        "entity": "cab",
+        "category": "non_living",
+        "subcategory": "object",
+        "location": "center-right",
+        "relative_size": "medium",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.091,
+        "interactions": "positioned in context",
+        "importance": "secondary"
+      },
+      {
+        "entity": "pickup",
+        "category": "non_living",
+        "subcategory": "object",
+        "location": "background",
+        "relative_size": "small",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.037,
+        "interactions": "positioned in context",
+        "importance": "background"
+      },
+      {
+        "entity": "minibus",
+        "category": "non_living",
+        "subcategory": "vehicle",
+        "location": "background",
+        "relative_size": "small",
+        "visible_attributes": [
+          "clearly visible",
+          "visibly fractured / cracked / damaged"
+        ],
+        "quantity": 1,
+        "confidence": 0.036,
+        "interactions": "positioned in context",
+        "importance": "background"
+      },
+      {
+        "entity": "embedded text ('Falamy')",
+        "category": "non_living",
+        "subcategory": "sign_document",
+        "location": "text-region",
+        "relative_size": "medium",
+        "visible_attributes": [
+          "typographic element",
+          "readable lettering"
+        ],
+        "quantity": 5,
+        "confidence": 0.85,
+        "interactions": "displays information",
+        "importance": "secondary"
+      }
+    ],
+    "living_entities": [],
+    "non_living_entities": [
+      {
+        "entity": "Shattered / Cracked screen fracture",
+        "category": "non_living",
+        "subcategory": "damaged_hardware",
+        "location": "center-display",
+        "relative_size": "dominant",
+        "visible_attributes": [
+          "crack density 6.78%",
+          "spiderweb fracture lines"
+        ],
+        "quantity": 1,
+        "confidence": 0.89,
+        "interactions": "physical structural impact / defect",
+        "importance": "primary"
+      },
+      {
+        "entity": "beach wagon",
+        "category": "non_living",
+        "subcategory": "environmental",
+        "location": "center",
+        "relative_size": "dominant",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.414,
+        "interactions": "positioned in context",
+        "importance": "primary"
+      },
+      {
+        "entity": "minivan",
+        "category": "non_living",
+        "subcategory": "object",
+        "location": "center-left",
+        "relative_size": "medium",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.102,
+        "interactions": "positioned in context",
+        "importance": "secondary"
+      },
+      {
+        "entity": "cab",
+        "category": "non_living",
+        "subcategory": "object",
+        "location": "center-right",
+        "relative_size": "medium",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.091,
+        "interactions": "positioned in context",
+        "importance": "secondary"
+      },
+      {
+        "entity": "pickup",
+        "category": "non_living",
+        "subcategory": "object",
+        "location": "background",
+        "relative_size": "small",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.037,
+        "interactions": "positioned in context",
+        "importance": "background"
+      },
+      {
+        "entity": "minibus",
+        "category": "non_living",
+        "subcategory": "vehicle",
+        "location": "background",
+        "relative_size": "small",
+        "visible_attributes": [
+          "clearly visible",
+          "visibly fractured / cracked / damaged"
+        ],
+        "quantity": 1,
+        "confidence": 0.036,
+        "interactions": "positioned in context",
+        "importance": "background"
+      },
+      {
+        "entity": "embedded text ('Falamy')",
+        "category": "non_living",
+        "subcategory": "sign_document",
+        "location": "text-region",
+        "relative_size": "medium",
+        "visible_attributes": [
+          "typographic element",
+          "readable lettering"
+        ],
+        "quantity": 5,
+        "confidence": 0.85,
+        "interactions": "displays information",
+        "importance": "secondary"
+      }
+    ],
+    "actions": [
+      {
+        "action": "structural impact / display fracture",
+        "performer": "hardware / screen",
+        "status": "damaged / shattered",
+        "confidence": 0.89,
+        "observable_evidence": "Intersecting fracture lines and crack edge dispersion across surface"
+      },
+      {
+        "action": "vehicular transit / road positioning",
+        "performer": "vehicle",
+        "status": "positioned on roadway or parking setting",
+        "confidence": 0.78,
+        "observable_evidence": "Automotive entity visible in transportation setting"
+      }
+    ],
+    "relationships": [
+      {
+        "subject": "Shattered / Cracked screen fracture",
+        "relationship": "situated within",
+        "object": "Urban / Automotive / Road",
+        "confidence": 0.78,
+        "evidence": "Shattered / Cracked screen fracture positioned as dominant element within Urban / Automotive / Road background"
+      }
+    ],
+    "ocr": [
+      {
+        "text": "Falamy",
+        "confidence": 0.67
+      },
+      {
+        "text": "alamy",
+        "confidence": 0.67
+      },
+      {
+        "text": "ZobDiik",
+        "confidence": 0.67
+      },
+      {
+        "text": "alamy",
+        "confidence": 0.67
+      },
+      {
+        "text": "Falamy",
+        "confidence": 0.67
+      }
+    ],
+    "visual_emotions": [
+      {
+        "emotion": "Frustration / Distress",
+        "polarity": "Negative",
+        "confidence": 0.88,
+        "observable_evidence": "Physical damage and broken hardware cues evoke frustration, loss, or inconvenience."
+      }
+    ],
+    "explicit_content": {
+      "visual_elements": [
+        "Shattered / Cracked screen fracture",
+        "beach wagon",
+        "minivan",
+        "cab"
+      ],
+      "detected_text": "Falamy alamy ZobDiik alamy Falamy",
+      "scene_setting": "Urban / Automotive / Road"
+    },
+    "implicit_meaning": {
+      "meaning": "Hardware failure, accidental damage, breakdown, or sudden disruption of work.",
+      "evidence_level": "INFERRED",
+      "supporting_evidence": [
+        "Severe screen fracture pattern",
+        "Interrupted technology usage context"
+      ],
+      "confidence": 0.88
+    },
+    "symbolic_cues": [
+      {
+        "symbol": "Shattered screen / spiderweb cracks",
+        "interpretation": "Symbolizes technical defect, frustration, broken reliability, or accidental loss",
+        "confidence": 0.9
+      }
+    ],
+    "possible_irony": {
+      "is_ironic": false,
+      "is_meme": false,
+      "evidence": "No clear visual incongruity or meme template detected within image alone.",
+      "confidence": 0.2
+    },
+    "visual_sentiment": {
+      "positive": 0.05,
+      "negative": 0.85,
+      "neutral": 0.1,
+      "dominant": "Negative",
+      "confidence": 85.0
+    },
+    "image_message": {
+      "message": "Warning / Incident / Hardware Defect",
+      "confidence": 0.88,
+      "evidence": [
+        "Scene identified as Urban / Automotive / Road",
+        "Atmosphere characterized as Neutral / Balanced"
+      ]
+    },
+    "uncertainties": []
+  },
+  "image": {
+    "hash": "66b28bc2a6bfc1d0d1ef674f08c9e383994a20cfc817547a4a77c5533bda9f18",
+    "description": "The image depicts a urban / automotive / road scene without people visible with visible shattered / cracked screen fracture, featuring beach wagon, minivan, cab. The visual atmosphere is neutral / balanced containing visible text: 'Falamy alamy ZobDiik alamy Falamy'. The overall intent communicates warning / incident / hardware defect evoking frustration / distress.",
+    "objects": [
+      {
+        "label": "beach wagon",
+        "confidence": 0.414
+      },
+      {
+        "label": "minivan",
+        "confidence": 0.102
+      },
+      {
+        "label": "cab",
+        "confidence": 0.091
+      },
+      {
+        "label": "pickup",
+        "confidence": 0.037
+      },
+      {
+        "label": "minibus",
+        "confidence": 0.036
+      }
+    ],
+    "people_count": 0,
+    "faces_detected": 0,
+    "scene": "Urban / Automotive / Road",
+    "ocr_text": [
+      "Falamy",
+      "alamy",
+      "ZobDiik",
+      "alamy",
+      "Falamy"
+    ],
+    "full_ocr_text": "Falamy alamy ZobDiik alamy Falamy",
+    "atmosphere": "Neutral / Balanced",
+    "palette": [
+      "#010101",
+      "#000000",
+      "#060505",
+      "#ffffff"
+    ],
+    "brightness": 126.7
+  },
+  "emotion_analysis": {
+    "primary": "Frustration / Distress",
+    "confidence": 0.88,
+    "evidence": [
+      "Physical damage and broken hardware cues evoke frustration, loss, or inconvenience."
+    ],
+    "facial_expression": "No faces visible",
+    "body_language": "Not enough visual evidence"
+  },
+  "sentiment_analysis": {
+    "positive": 0.05,
+    "negative": 0.85,
+    "neutral": 0.1,
+    "dominant": "Negative",
+    "confidence": 85.0
+  },
+  "message": {
+    "interpretation": "Warning / Incident / Hardware Defect",
+    "confidence": 0.88,
+    "story": "The image communicates a message of warning / incident / hardware defect centered around Urban / Automotive / Road."
+  },
+  "perspectives": {
+    "visual_perspective": "Visible entities: Shattered / Cracked screen fracture, beach wagon, minivan; Atmosphere: Neutral / Balanced.",
+    "emotional_perspective": "Primary emotion is Frustration / Distress with 88% confidence.",
+    "contextual_perspective": "Setting is Urban / Automotive / Road with 0 subject(s).",
+    "social_perspective": "0 person(s) present (No faces visible).",
+    "textual_perspective": "OCR Text: 'Falamy alamy ZobDiik alamy Falamy'.",
+    "semantic_perspective": "Communicating Warning / Incident / Hardware Defect.",
+    "sentiment_perspective": "Evaluated as Negative (85% confidence)."
+  },
+  "elements": {
+    "positive_elements": [],
+    "negative_elements": [
+      "Physical hardware defect: Shattered / Cracked screen fracture"
+    ],
+    "neutral_elements": [
+      "Urban / Automotive / Road",
+      "Embedded text: \"Falamy alamy ZobDiik alamy Falamy\""
+    ],
+    "ambiguous_elements": []
+  },
+  "performance": {
+    "cache_hit": false,
+    "cache_type": "Fresh Computation",
+    "image_processing_time_ms": 3.76,
+    "vision_inference_time_ms": 22.97,
+    "ocr_time_ms": 2639.29,
+    "reasoning_time_ms": 0.33,
+    "processing_time_ms": 2714.71
+  },
+  "uncertainty": []
+}

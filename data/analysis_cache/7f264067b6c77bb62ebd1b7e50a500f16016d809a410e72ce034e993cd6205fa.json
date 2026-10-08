@@ -1,0 +1,334 @@
+{
+  "image_analysis": {
+    "scene": {
+      "scene_type": "Workplace / Digital Office",
+      "direct_observations": [
+        "Scene contains no visible human subjects",
+        "Visible primary objects: laptop, monitor, screen",
+        "Visual atmosphere is neutral / balanced",
+        "Direct visual evidence of surface fracturing (Shattered / Cracked screen fracture)"
+      ],
+      "contextual_interpretations": [
+        "The physical hardware has experienced severe impact or accidental defect, disrupting normal usage."
+      ],
+      "observation_confidence": 0.92,
+      "interpretation_confidence": 0.84,
+      "summary": "Scene contains no visible human subjects | Visible primary objects: laptop, monitor, screen | Visual atmosphere is neutral / balanced | Direct visual evidence of surface fracturing (Shattered / Cracked screen fracture) -> The physical hardware has experienced severe impact or accidental defect, disrupting normal usage."
+    },
+    "entities": [
+      {
+        "entity": "laptop",
+        "category": "non_living",
+        "subcategory": "electronics",
+        "location": "center",
+        "relative_size": "dominant",
+        "visible_attributes": [
+          "clearly visible",
+          "visibly fractured / cracked / damaged"
+        ],
+        "quantity": 1,
+        "confidence": 0.253,
+        "interactions": "positioned in context",
+        "importance": "primary"
+      },
+      {
+        "entity": "monitor",
+        "category": "non_living",
+        "subcategory": "electronics",
+        "location": "center-left",
+        "relative_size": "medium",
+        "visible_attributes": [
+          "clearly visible",
+          "visibly fractured / cracked / damaged"
+        ],
+        "quantity": 1,
+        "confidence": 0.165,
+        "interactions": "positioned in context",
+        "importance": "secondary"
+      },
+      {
+        "entity": "screen",
+        "category": "non_living",
+        "subcategory": "electronics",
+        "location": "center-right",
+        "relative_size": "medium",
+        "visible_attributes": [
+          "clearly visible",
+          "visibly fractured / cracked / damaged"
+        ],
+        "quantity": 1,
+        "confidence": 0.125,
+        "interactions": "positioned in context",
+        "importance": "secondary"
+      },
+      {
+        "entity": "ipod",
+        "category": "non_living",
+        "subcategory": "object",
+        "location": "background",
+        "relative_size": "small",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.073,
+        "interactions": "positioned in context",
+        "importance": "background"
+      },
+      {
+        "entity": "radio",
+        "category": "non_living",
+        "subcategory": "object",
+        "location": "background",
+        "relative_size": "small",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.057,
+        "interactions": "positioned in context",
+        "importance": "background"
+      }
+    ],
+    "living_entities": [],
+    "non_living_entities": [
+      {
+        "entity": "laptop",
+        "category": "non_living",
+        "subcategory": "electronics",
+        "location": "center",
+        "relative_size": "dominant",
+        "visible_attributes": [
+          "clearly visible",
+          "visibly fractured / cracked / damaged"
+        ],
+        "quantity": 1,
+        "confidence": 0.253,
+        "interactions": "positioned in context",
+        "importance": "primary"
+      },
+      {
+        "entity": "monitor",
+        "category": "non_living",
+        "subcategory": "electronics",
+        "location": "center-left",
+        "relative_size": "medium",
+        "visible_attributes": [
+          "clearly visible",
+          "visibly fractured / cracked / damaged"
+        ],
+        "quantity": 1,
+        "confidence": 0.165,
+        "interactions": "positioned in context",
+        "importance": "secondary"
+      },
+      {
+        "entity": "screen",
+        "category": "non_living",
+        "subcategory": "electronics",
+        "location": "center-right",
+        "relative_size": "medium",
+        "visible_attributes": [
+          "clearly visible",
+          "visibly fractured / cracked / damaged"
+        ],
+        "quantity": 1,
+        "confidence": 0.125,
+        "interactions": "positioned in context",
+        "importance": "secondary"
+      },
+      {
+        "entity": "ipod",
+        "category": "non_living",
+        "subcategory": "object",
+        "location": "background",
+        "relative_size": "small",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.073,
+        "interactions": "positioned in context",
+        "importance": "background"
+      },
+      {
+        "entity": "radio",
+        "category": "non_living",
+        "subcategory": "object",
+        "location": "background",
+        "relative_size": "small",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.057,
+        "interactions": "positioned in context",
+        "importance": "background"
+      }
+    ],
+    "actions": [
+      {
+        "action": "structural impact / display fracture",
+        "performer": "hardware / screen",
+        "status": "damaged / shattered",
+        "confidence": 0.89,
+        "observable_evidence": "Intersecting fracture lines and crack edge dispersion across surface"
+      }
+    ],
+    "relationships": [
+      {
+        "subject": "Screen fracture / crack network",
+        "relationship": "damages / fractures",
+        "object": "Electronic display / laptop screen",
+        "confidence": 0.9,
+        "evidence": "Visible high-density radiating crack lines across display panel"
+      }
+    ],
+    "ocr": [],
+    "visual_emotions": [
+      {
+        "emotion": "Frustration / Distress",
+        "polarity": "Negative",
+        "confidence": 0.88,
+        "observable_evidence": "Physical damage and broken hardware cues evoke frustration, loss, or inconvenience."
+      }
+    ],
+    "explicit_content": {
+      "visual_elements": [
+        "laptop",
+        "monitor",
+        "screen",
+        "ipod"
+      ],
+      "detected_text": "None",
+      "scene_setting": "Workplace / Digital Office"
+    },
+    "implicit_meaning": {
+      "meaning": "Hardware failure, accidental damage, breakdown, or sudden disruption of work.",
+      "evidence_level": "INFERRED",
+      "supporting_evidence": [
+        "Severe screen fracture pattern",
+        "Interrupted technology usage context"
+      ],
+      "confidence": 0.88
+    },
+    "symbolic_cues": [
+      {
+        "symbol": "Shattered screen / spiderweb cracks",
+        "interpretation": "Symbolizes technical defect, frustration, broken reliability, or accidental loss",
+        "confidence": 0.9
+      }
+    ],
+    "possible_irony": {
+      "is_ironic": false,
+      "is_meme": false,
+      "evidence": "No clear visual incongruity or meme template detected within image alone.",
+      "confidence": 0.2
+    },
+    "visual_sentiment": {
+      "positive": 0.05,
+      "negative": 0.85,
+      "neutral": 0.1,
+      "dominant": "Negative",
+      "confidence": 85.0
+    },
+    "image_message": {
+      "message": "Warning / Incident / Hardware Defect",
+      "confidence": 0.88,
+      "evidence": [
+        "Scene identified as Workplace / Digital Office",
+        "Atmosphere characterized as Neutral / Balanced"
+      ]
+    },
+    "uncertainties": []
+  },
+  "image": {
+    "hash": "7f264067b6c77bb62ebd1b7e50a500f16016d809a410e72ce034e993cd6205fa",
+    "description": "The image depicts a workplace / digital office scene without people visible with visible shattered / cracked screen fracture, featuring laptop, monitor, screen. The visual atmosphere is neutral / balanced with no prominent text. The overall intent communicates warning / incident / hardware defect evoking frustration / distress.",
+    "objects": [
+      {
+        "label": "laptop",
+        "confidence": 0.253
+      },
+      {
+        "label": "monitor",
+        "confidence": 0.165
+      },
+      {
+        "label": "screen",
+        "confidence": 0.125
+      },
+      {
+        "label": "iPod",
+        "confidence": 0.073
+      },
+      {
+        "label": "radio",
+        "confidence": 0.057
+      }
+    ],
+    "people_count": 0,
+    "faces_detected": 0,
+    "scene": "Workplace / Digital Office",
+    "ocr_text": [],
+    "full_ocr_text": "",
+    "atmosphere": "Neutral / Balanced",
+    "palette": [
+      "#000000",
+      "#050505",
+      "#060606",
+      "#040404"
+    ],
+    "brightness": 118.1
+  },
+  "emotion_analysis": {
+    "primary": "Frustration / Distress",
+    "confidence": 0.88,
+    "evidence": [
+      "Physical damage and broken hardware cues evoke frustration, loss, or inconvenience."
+    ],
+    "facial_expression": "No faces visible",
+    "body_language": "Not enough visual evidence"
+  },
+  "sentiment_analysis": {
+    "positive": 0.05,
+    "negative": 0.85,
+    "neutral": 0.1,
+    "dominant": "Negative",
+    "confidence": 85.0
+  },
+  "message": {
+    "interpretation": "Warning / Incident / Hardware Defect",
+    "confidence": 0.88,
+    "story": "The image communicates a message of warning / incident / hardware defect centered around Workplace / Digital Office."
+  },
+  "perspectives": {
+    "visual_perspective": "Visible entities: laptop, monitor, screen; Atmosphere: Neutral / Balanced.",
+    "emotional_perspective": "Primary emotion is Frustration / Distress with 88% confidence.",
+    "contextual_perspective": "Setting is Workplace / Digital Office with 0 subject(s).",
+    "social_perspective": "0 person(s) present (No faces visible).",
+    "textual_perspective": "No visible text detected.",
+    "semantic_perspective": "Communicating Warning / Incident / Hardware Defect.",
+    "sentiment_perspective": "Evaluated as Negative (85% confidence)."
+  },
+  "elements": {
+    "positive_elements": [],
+    "negative_elements": [
+      "Physical hardware defect: Shattered / Cracked screen fracture"
+    ],
+    "neutral_elements": [
+      "Workplace / Digital Office"
+    ],
+    "ambiguous_elements": []
+  },
+  "performance": {
+    "cache_hit": false,
+    "cache_type": "Fresh Computation",
+    "image_processing_time_ms": 6.25,
+    "vision_inference_time_ms": 19.84,
+    "ocr_time_ms": 1633.14,
+    "reasoning_time_ms": 0.2,
+    "processing_time_ms": 1699.65
+  },
+  "uncertainty": []
+}
