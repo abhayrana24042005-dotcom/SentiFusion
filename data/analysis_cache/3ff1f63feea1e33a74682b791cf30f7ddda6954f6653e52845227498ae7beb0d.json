@@ -1,0 +1,254 @@
+{
+  "image_analysis": {
+    "scene": {
+      "scene_type": "General / Everyday Environment",
+      "direct_observations": [
+        "Scene contains no visible human subjects",
+        "Visible primary objects: envelope, rule, table lamp",
+        "Visual atmosphere is hazard / warning / distress tone"
+      ],
+      "contextual_interpretations": [
+        "The environment aligns with a general / everyday environment context."
+      ],
+      "observation_confidence": 0.92,
+      "interpretation_confidence": 0.84,
+      "summary": "Scene contains no visible human subjects | Visible primary objects: envelope, rule, table lamp | Visual atmosphere is hazard / warning / distress tone -> The environment aligns with a general / everyday environment context."
+    },
+    "entities": [
+      {
+        "entity": "envelope",
+        "category": "non_living",
+        "subcategory": "object",
+        "location": "center",
+        "relative_size": "dominant",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.564,
+        "interactions": "positioned in context",
+        "importance": "primary"
+      },
+      {
+        "entity": "rule",
+        "category": "non_living",
+        "subcategory": "object",
+        "location": "center-left",
+        "relative_size": "medium",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.159,
+        "interactions": "positioned in context",
+        "importance": "secondary"
+      },
+      {
+        "entity": "table lamp",
+        "category": "non_living",
+        "subcategory": "furniture",
+        "location": "center-right",
+        "relative_size": "medium",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.094,
+        "interactions": "positioned in context",
+        "importance": "secondary"
+      }
+    ],
+    "living_entities": [],
+    "non_living_entities": [
+      {
+        "entity": "envelope",
+        "category": "non_living",
+        "subcategory": "object",
+        "location": "center",
+        "relative_size": "dominant",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.564,
+        "interactions": "positioned in context",
+        "importance": "primary"
+      },
+      {
+        "entity": "rule",
+        "category": "non_living",
+        "subcategory": "object",
+        "location": "center-left",
+        "relative_size": "medium",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.159,
+        "interactions": "positioned in context",
+        "importance": "secondary"
+      },
+      {
+        "entity": "table lamp",
+        "category": "non_living",
+        "subcategory": "furniture",
+        "location": "center-right",
+        "relative_size": "medium",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.094,
+        "interactions": "positioned in context",
+        "importance": "secondary"
+      }
+    ],
+    "actions": [
+      {
+        "action": "static scenic arrangement",
+        "performer": "environment",
+        "status": "still / stationary composition",
+        "confidence": 0.75,
+        "observable_evidence": "No dynamic human or mechanical movement detected"
+      }
+    ],
+    "relationships": [
+      {
+        "subject": "envelope",
+        "relationship": "situated within",
+        "object": "General / Everyday Environment",
+        "confidence": 0.78,
+        "evidence": "envelope positioned as dominant element within General / Everyday Environment background"
+      }
+    ],
+    "ocr": [],
+    "visual_emotions": [
+      {
+        "emotion": "Hazard / Distress Tone",
+        "polarity": "Negative",
+        "confidence": 0.78,
+        "observable_evidence": "Alert tone, low brightness, or hazardous color atmosphere."
+      }
+    ],
+    "explicit_content": {
+      "visual_elements": [
+        "envelope",
+        "rule",
+        "table lamp"
+      ],
+      "detected_text": "None",
+      "scene_setting": "General / Everyday Environment"
+    },
+    "implicit_meaning": {
+      "meaning": "Routine visual documentation or contextual representation.",
+      "evidence_level": "DIRECT",
+      "supporting_evidence": [
+        "Standard visual elements without evident symbolic subtext"
+      ],
+      "confidence": 0.75
+    },
+    "symbolic_cues": [],
+    "possible_irony": {
+      "is_ironic": false,
+      "is_meme": false,
+      "evidence": "No clear visual incongruity or meme template detected within image alone.",
+      "confidence": 0.2
+    },
+    "visual_sentiment": {
+      "positive": 0.05,
+      "negative": 0.85,
+      "neutral": 0.1,
+      "dominant": "Negative",
+      "confidence": 85.0
+    },
+    "image_message": {
+      "message": "Neutral Information",
+      "confidence": 0.75,
+      "evidence": [
+        "Scene identified as General / Everyday Environment",
+        "Atmosphere characterized as Hazard / Warning / Distress Tone"
+      ]
+    },
+    "uncertainties": []
+  },
+  "image": {
+    "hash": "3ff1f63feea1e33a74682b791cf30f7ddda6954f6653e52845227498ae7beb0d",
+    "description": "The image depicts a general / everyday environment scene without people visible , featuring envelope, rule, table lamp. The visual atmosphere is hazard / warning / distress tone with no prominent text. The overall intent communicates neutral information evoking hazard / distress tone.",
+    "objects": [
+      {
+        "label": "envelope",
+        "confidence": 0.564
+      },
+      {
+        "label": "rule",
+        "confidence": 0.159
+      },
+      {
+        "label": "table lamp",
+        "confidence": 0.094
+      }
+    ],
+    "people_count": 0,
+    "faces_detected": 0,
+    "scene": "General / Everyday Environment",
+    "ocr_text": [],
+    "full_ocr_text": "",
+    "atmosphere": "Hazard / Warning / Distress Tone",
+    "palette": [
+      "#dc2625",
+      "#ffffff",
+      "#dd2929",
+      "#eca29f"
+    ],
+    "brightness": 130.2
+  },
+  "emotion_analysis": {
+    "primary": "Hazard / Distress Tone",
+    "confidence": 0.78,
+    "evidence": [
+      "Alert tone, low brightness, or hazardous color atmosphere."
+    ],
+    "facial_expression": "No faces visible",
+    "body_language": "Not enough visual evidence"
+  },
+  "sentiment_analysis": {
+    "positive": 0.05,
+    "negative": 0.85,
+    "neutral": 0.1,
+    "dominant": "Negative",
+    "confidence": 85.0
+  },
+  "message": {
+    "interpretation": "Neutral Information",
+    "confidence": 0.75,
+    "story": "The image communicates a message of neutral information centered around General / Everyday Environment."
+  },
+  "perspectives": {
+    "visual_perspective": "Visible entities: envelope, rule, table lamp; Atmosphere: Hazard / Warning / Distress Tone.",
+    "emotional_perspective": "Primary emotion is Hazard / Distress Tone with 78% confidence.",
+    "contextual_perspective": "Setting is General / Everyday Environment with 0 subject(s).",
+    "social_perspective": "0 person(s) present (No faces visible).",
+    "textual_perspective": "No visible text detected.",
+    "semantic_perspective": "Communicating Neutral Information.",
+    "sentiment_perspective": "Evaluated as Negative (85% confidence)."
+  },
+  "elements": {
+    "positive_elements": [],
+    "negative_elements": [],
+    "neutral_elements": [
+      "General / Everyday Environment",
+      "Balanced visual tones without extreme polarity"
+    ],
+    "ambiguous_elements": []
+  },
+  "performance": {
+    "cache_hit": false,
+    "cache_type": "Fresh Computation",
+    "image_processing_time_ms": 0.59,
+    "vision_inference_time_ms": 10.05,
+    "ocr_time_ms": 187.58,
+    "reasoning_time_ms": 0.22,
+    "processing_time_ms": 202.55
+  },
+  "uncertainty": []
+}

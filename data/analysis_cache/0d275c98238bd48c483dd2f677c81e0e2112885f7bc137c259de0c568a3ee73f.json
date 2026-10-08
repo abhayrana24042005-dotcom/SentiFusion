@@ -1,0 +1,319 @@
+{
+  "image_analysis": {
+    "scene": {
+      "scene_type": "General / Everyday Environment",
+      "direct_observations": [
+        "Scene contains no visible human subjects",
+        "Visible primary objects: envelope, web site, nail",
+        "Visual atmosphere is cool / calm / serene"
+      ],
+      "contextual_interpretations": [
+        "The environment aligns with a general / everyday environment context."
+      ],
+      "observation_confidence": 0.92,
+      "interpretation_confidence": 0.84,
+      "summary": "Scene contains no visible human subjects | Visible primary objects: envelope, web site, nail | Visual atmosphere is cool / calm / serene -> The environment aligns with a general / everyday environment context."
+    },
+    "entities": [
+      {
+        "entity": "envelope",
+        "category": "non_living",
+        "subcategory": "object",
+        "location": "center",
+        "relative_size": "dominant",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.138,
+        "interactions": "positioned in context",
+        "importance": "primary"
+      },
+      {
+        "entity": "web site",
+        "category": "non_living",
+        "subcategory": "object",
+        "location": "center-left",
+        "relative_size": "medium",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.081,
+        "interactions": "positioned in context",
+        "importance": "secondary"
+      },
+      {
+        "entity": "nail",
+        "category": "non_living",
+        "subcategory": "object",
+        "location": "center-right",
+        "relative_size": "medium",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.053,
+        "interactions": "positioned in context",
+        "importance": "secondary"
+      },
+      {
+        "entity": "analog clock",
+        "category": "non_living",
+        "subcategory": "object",
+        "location": "background",
+        "relative_size": "small",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.045,
+        "interactions": "positioned in context",
+        "importance": "background"
+      },
+      {
+        "entity": "hook",
+        "category": "non_living",
+        "subcategory": "object",
+        "location": "background",
+        "relative_size": "small",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.031,
+        "interactions": "positioned in context",
+        "importance": "background"
+      }
+    ],
+    "living_entities": [],
+    "non_living_entities": [
+      {
+        "entity": "envelope",
+        "category": "non_living",
+        "subcategory": "object",
+        "location": "center",
+        "relative_size": "dominant",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.138,
+        "interactions": "positioned in context",
+        "importance": "primary"
+      },
+      {
+        "entity": "web site",
+        "category": "non_living",
+        "subcategory": "object",
+        "location": "center-left",
+        "relative_size": "medium",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.081,
+        "interactions": "positioned in context",
+        "importance": "secondary"
+      },
+      {
+        "entity": "nail",
+        "category": "non_living",
+        "subcategory": "object",
+        "location": "center-right",
+        "relative_size": "medium",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.053,
+        "interactions": "positioned in context",
+        "importance": "secondary"
+      },
+      {
+        "entity": "analog clock",
+        "category": "non_living",
+        "subcategory": "object",
+        "location": "background",
+        "relative_size": "small",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.045,
+        "interactions": "positioned in context",
+        "importance": "background"
+      },
+      {
+        "entity": "hook",
+        "category": "non_living",
+        "subcategory": "object",
+        "location": "background",
+        "relative_size": "small",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.031,
+        "interactions": "positioned in context",
+        "importance": "background"
+      }
+    ],
+    "actions": [
+      {
+        "action": "static scenic arrangement",
+        "performer": "environment",
+        "status": "still / stationary composition",
+        "confidence": 0.75,
+        "observable_evidence": "No dynamic human or mechanical movement detected"
+      }
+    ],
+    "relationships": [
+      {
+        "subject": "envelope",
+        "relationship": "situated within",
+        "object": "General / Everyday Environment",
+        "confidence": 0.78,
+        "evidence": "envelope positioned as dominant element within General / Everyday Environment background"
+      }
+    ],
+    "ocr": [],
+    "visual_emotions": [
+      {
+        "emotion": "Neutral / Balanced",
+        "polarity": "Neutral",
+        "confidence": 0.7,
+        "observable_evidence": "Even lighting, steady composition, and absence of extreme affective cues."
+      }
+    ],
+    "explicit_content": {
+      "visual_elements": [
+        "envelope",
+        "web site",
+        "nail",
+        "analog clock"
+      ],
+      "detected_text": "None",
+      "scene_setting": "General / Everyday Environment"
+    },
+    "implicit_meaning": {
+      "meaning": "Routine visual documentation or contextual representation.",
+      "evidence_level": "DIRECT",
+      "supporting_evidence": [
+        "Standard visual elements without evident symbolic subtext"
+      ],
+      "confidence": 0.75
+    },
+    "symbolic_cues": [],
+    "possible_irony": {
+      "is_ironic": false,
+      "is_meme": false,
+      "evidence": "No clear visual incongruity or meme template detected within image alone.",
+      "confidence": 0.2
+    },
+    "visual_sentiment": {
+      "positive": 0.15,
+      "negative": 0.15,
+      "neutral": 0.7,
+      "dominant": "Neutral",
+      "confidence": 70.0
+    },
+    "image_message": {
+      "message": "Neutral Information",
+      "confidence": 0.75,
+      "evidence": [
+        "Scene identified as General / Everyday Environment",
+        "Atmosphere characterized as Cool / Calm / Serene"
+      ]
+    },
+    "uncertainties": []
+  },
+  "image": {
+    "hash": "0d275c98238bd48c483dd2f677c81e0e2112885f7bc137c259de0c568a3ee73f",
+    "description": "The image depicts a general / everyday environment scene without people visible , featuring envelope, web site, nail. The visual atmosphere is cool / calm / serene with no prominent text. The overall intent communicates neutral information evoking neutral / balanced.",
+    "objects": [
+      {
+        "label": "envelope",
+        "confidence": 0.138
+      },
+      {
+        "label": "web site",
+        "confidence": 0.081
+      },
+      {
+        "label": "nail",
+        "confidence": 0.053
+      },
+      {
+        "label": "analog clock",
+        "confidence": 0.045
+      },
+      {
+        "label": "hook",
+        "confidence": 0.031
+      }
+    ],
+    "people_count": 0,
+    "faces_detected": 0,
+    "scene": "General / Everyday Environment",
+    "ocr_text": [],
+    "full_ocr_text": "",
+    "atmosphere": "Cool / Calm / Serene",
+    "palette": [
+      "#f0f0f0",
+      "#6594ec",
+      "#eeeff0",
+      "#eeeef0"
+    ],
+    "brightness": 199.8
+  },
+  "emotion_analysis": {
+    "primary": "Neutral / Balanced",
+    "confidence": 0.7,
+    "evidence": [
+      "Even lighting, steady composition, and absence of extreme affective cues."
+    ],
+    "facial_expression": "No faces visible",
+    "body_language": "Not enough visual evidence"
+  },
+  "sentiment_analysis": {
+    "positive": 0.15,
+    "negative": 0.15,
+    "neutral": 0.7,
+    "dominant": "Neutral",
+    "confidence": 70.0
+  },
+  "message": {
+    "interpretation": "Neutral Information",
+    "confidence": 0.75,
+    "story": "The image communicates a message of neutral information centered around General / Everyday Environment."
+  },
+  "perspectives": {
+    "visual_perspective": "Visible entities: envelope, web site, nail; Atmosphere: Cool / Calm / Serene.",
+    "emotional_perspective": "Primary emotion is Neutral / Balanced with 70% confidence.",
+    "contextual_perspective": "Setting is General / Everyday Environment with 0 subject(s).",
+    "social_perspective": "0 person(s) present (No faces visible).",
+    "textual_perspective": "No visible text detected.",
+    "semantic_perspective": "Communicating Neutral Information.",
+    "sentiment_perspective": "Evaluated as Neutral (70% confidence)."
+  },
+  "elements": {
+    "positive_elements": [],
+    "negative_elements": [],
+    "neutral_elements": [
+      "General / Everyday Environment",
+      "Balanced visual tones without extreme polarity"
+    ],
+    "ambiguous_elements": []
+  },
+  "performance": {
+    "cache_hit": false,
+    "cache_type": "Fresh Computation",
+    "image_processing_time_ms": 0.38,
+    "vision_inference_time_ms": 61.75,
+    "ocr_time_ms": 184.33,
+    "reasoning_time_ms": 0.24,
+    "processing_time_ms": 355.95
+  },
+  "uncertainty": []
+}

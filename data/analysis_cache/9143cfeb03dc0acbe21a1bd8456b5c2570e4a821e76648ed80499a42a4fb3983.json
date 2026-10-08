@@ -1,0 +1,360 @@
+{
+  "image_analysis": {
+    "scene": {
+      "scene_type": "General / Everyday Environment",
+      "direct_observations": [
+        "Scene contains no visible human subjects",
+        "Visible primary objects: Shattered / Cracked screen fracture, envelope, analog clock",
+        "Visual atmosphere is neutral / balanced",
+        "Direct visual evidence of surface fracturing (Shattered / Cracked screen fracture)"
+      ],
+      "contextual_interpretations": [
+        "The physical hardware has experienced severe impact or accidental defect, disrupting normal usage."
+      ],
+      "observation_confidence": 0.92,
+      "interpretation_confidence": 0.84,
+      "summary": "Scene contains no visible human subjects | Visible primary objects: Shattered / Cracked screen fracture, envelope, analog clock | Visual atmosphere is neutral / balanced | Direct visual evidence of surface fracturing (Shattered / Cracked screen fracture) -> The physical hardware has experienced severe impact or accidental defect, disrupting normal usage."
+    },
+    "entities": [
+      {
+        "entity": "Shattered / Cracked screen fracture",
+        "category": "non_living",
+        "subcategory": "damaged_hardware",
+        "location": "center-display",
+        "relative_size": "dominant",
+        "visible_attributes": [
+          "crack density 13.72%",
+          "spiderweb fracture lines"
+        ],
+        "quantity": 1,
+        "confidence": 0.89,
+        "interactions": "physical structural impact / defect",
+        "importance": "primary"
+      },
+      {
+        "entity": "envelope",
+        "category": "non_living",
+        "subcategory": "object",
+        "location": "center",
+        "relative_size": "dominant",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.306,
+        "interactions": "positioned in context",
+        "importance": "primary"
+      },
+      {
+        "entity": "analog clock",
+        "category": "non_living",
+        "subcategory": "object",
+        "location": "center-left",
+        "relative_size": "medium",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.155,
+        "interactions": "positioned in context",
+        "importance": "secondary"
+      },
+      {
+        "entity": "space heater",
+        "category": "non_living",
+        "subcategory": "object",
+        "location": "center-right",
+        "relative_size": "medium",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.108,
+        "interactions": "positioned in context",
+        "importance": "secondary"
+      },
+      {
+        "entity": "wall clock",
+        "category": "non_living",
+        "subcategory": "object",
+        "location": "background",
+        "relative_size": "small",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.067,
+        "interactions": "positioned in context",
+        "importance": "background"
+      },
+      {
+        "entity": "strainer",
+        "category": "non_living",
+        "subcategory": "vehicle",
+        "location": "background",
+        "relative_size": "small",
+        "visible_attributes": [
+          "clearly visible",
+          "visibly fractured / cracked / damaged"
+        ],
+        "quantity": 1,
+        "confidence": 0.032,
+        "interactions": "positioned in context",
+        "importance": "background"
+      }
+    ],
+    "living_entities": [],
+    "non_living_entities": [
+      {
+        "entity": "Shattered / Cracked screen fracture",
+        "category": "non_living",
+        "subcategory": "damaged_hardware",
+        "location": "center-display",
+        "relative_size": "dominant",
+        "visible_attributes": [
+          "crack density 13.72%",
+          "spiderweb fracture lines"
+        ],
+        "quantity": 1,
+        "confidence": 0.89,
+        "interactions": "physical structural impact / defect",
+        "importance": "primary"
+      },
+      {
+        "entity": "envelope",
+        "category": "non_living",
+        "subcategory": "object",
+        "location": "center",
+        "relative_size": "dominant",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.306,
+        "interactions": "positioned in context",
+        "importance": "primary"
+      },
+      {
+        "entity": "analog clock",
+        "category": "non_living",
+        "subcategory": "object",
+        "location": "center-left",
+        "relative_size": "medium",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.155,
+        "interactions": "positioned in context",
+        "importance": "secondary"
+      },
+      {
+        "entity": "space heater",
+        "category": "non_living",
+        "subcategory": "object",
+        "location": "center-right",
+        "relative_size": "medium",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.108,
+        "interactions": "positioned in context",
+        "importance": "secondary"
+      },
+      {
+        "entity": "wall clock",
+        "category": "non_living",
+        "subcategory": "object",
+        "location": "background",
+        "relative_size": "small",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.067,
+        "interactions": "positioned in context",
+        "importance": "background"
+      },
+      {
+        "entity": "strainer",
+        "category": "non_living",
+        "subcategory": "vehicle",
+        "location": "background",
+        "relative_size": "small",
+        "visible_attributes": [
+          "clearly visible",
+          "visibly fractured / cracked / damaged"
+        ],
+        "quantity": 1,
+        "confidence": 0.032,
+        "interactions": "positioned in context",
+        "importance": "background"
+      }
+    ],
+    "actions": [
+      {
+        "action": "structural impact / display fracture",
+        "performer": "hardware / screen",
+        "status": "damaged / shattered",
+        "confidence": 0.89,
+        "observable_evidence": "Intersecting fracture lines and crack edge dispersion across surface"
+      }
+    ],
+    "relationships": [
+      {
+        "subject": "Shattered / Cracked screen fracture",
+        "relationship": "situated within",
+        "object": "General / Everyday Environment",
+        "confidence": 0.78,
+        "evidence": "Shattered / Cracked screen fracture positioned as dominant element within General / Everyday Environment background"
+      }
+    ],
+    "ocr": [],
+    "visual_emotions": [
+      {
+        "emotion": "Frustration / Distress",
+        "polarity": "Negative",
+        "confidence": 0.88,
+        "observable_evidence": "Physical damage and broken hardware cues evoke frustration, loss, or inconvenience."
+      }
+    ],
+    "explicit_content": {
+      "visual_elements": [
+        "Shattered / Cracked screen fracture",
+        "envelope",
+        "analog clock",
+        "space heater"
+      ],
+      "detected_text": "None",
+      "scene_setting": "General / Everyday Environment"
+    },
+    "implicit_meaning": {
+      "meaning": "Hardware failure, accidental damage, breakdown, or sudden disruption of work.",
+      "evidence_level": "INFERRED",
+      "supporting_evidence": [
+        "Severe screen fracture pattern",
+        "Interrupted technology usage context"
+      ],
+      "confidence": 0.88
+    },
+    "symbolic_cues": [
+      {
+        "symbol": "Shattered screen / spiderweb cracks",
+        "interpretation": "Symbolizes technical defect, frustration, broken reliability, or accidental loss",
+        "confidence": 0.9
+      }
+    ],
+    "possible_irony": {
+      "is_ironic": false,
+      "is_meme": false,
+      "evidence": "No clear visual incongruity or meme template detected within image alone.",
+      "confidence": 0.2
+    },
+    "visual_sentiment": {
+      "positive": 0.05,
+      "negative": 0.85,
+      "neutral": 0.1,
+      "dominant": "Negative",
+      "confidence": 85.0
+    },
+    "image_message": {
+      "message": "Warning / Incident / Hardware Defect",
+      "confidence": 0.88,
+      "evidence": [
+        "Scene identified as General / Everyday Environment",
+        "Atmosphere characterized as Neutral / Balanced"
+      ]
+    },
+    "uncertainties": []
+  },
+  "image": {
+    "hash": "9143cfeb03dc0acbe21a1bd8456b5c2570e4a821e76648ed80499a42a4fb3983",
+    "description": "The image depicts a general / everyday environment scene without people visible with visible shattered / cracked screen fracture, featuring envelope, analog clock, space heater. The visual atmosphere is neutral / balanced with no prominent text. The overall intent communicates warning / incident / hardware defect evoking frustration / distress.",
+    "objects": [
+      {
+        "label": "envelope",
+        "confidence": 0.306
+      },
+      {
+        "label": "analog clock",
+        "confidence": 0.155
+      },
+      {
+        "label": "space heater",
+        "confidence": 0.108
+      },
+      {
+        "label": "wall clock",
+        "confidence": 0.067
+      },
+      {
+        "label": "strainer",
+        "confidence": 0.032
+      }
+    ],
+    "people_count": 0,
+    "faces_detected": 0,
+    "scene": "General / Everyday Environment",
+    "ocr_text": [],
+    "full_ocr_text": "",
+    "atmosphere": "Neutral / Balanced",
+    "palette": [
+      "#f0f0f0",
+      "#eeeeee",
+      "#efefef",
+      "#fafafa"
+    ],
+    "brightness": 174.2
+  },
+  "emotion_analysis": {
+    "primary": "Frustration / Distress",
+    "confidence": 0.88,
+    "evidence": [
+      "Physical damage and broken hardware cues evoke frustration, loss, or inconvenience."
+    ],
+    "facial_expression": "No faces visible",
+    "body_language": "Not enough visual evidence"
+  },
+  "sentiment_analysis": {
+    "positive": 0.05,
+    "negative": 0.85,
+    "neutral": 0.1,
+    "dominant": "Negative",
+    "confidence": 85.0
+  },
+  "message": {
+    "interpretation": "Warning / Incident / Hardware Defect",
+    "confidence": 0.88,
+    "story": "The image communicates a message of warning / incident / hardware defect centered around General / Everyday Environment."
+  },
+  "perspectives": {
+    "visual_perspective": "Visible entities: Shattered / Cracked screen fracture, envelope, analog clock; Atmosphere: Neutral / Balanced.",
+    "emotional_perspective": "Primary emotion is Frustration / Distress with 88% confidence.",
+    "contextual_perspective": "Setting is General / Everyday Environment with 0 subject(s).",
+    "social_perspective": "0 person(s) present (No faces visible).",
+    "textual_perspective": "No visible text detected.",
+    "semantic_perspective": "Communicating Warning / Incident / Hardware Defect.",
+    "sentiment_perspective": "Evaluated as Negative (85% confidence)."
+  },
+  "elements": {
+    "positive_elements": [],
+    "negative_elements": [
+      "Physical hardware defect: Shattered / Cracked screen fracture"
+    ],
+    "neutral_elements": [
+      "General / Everyday Environment"
+    ],
+    "ambiguous_elements": []
+  },
+  "performance": {
+    "cache_hit": false,
+    "cache_type": "Fresh Computation",
+    "image_processing_time_ms": 0.46,
+    "vision_inference_time_ms": 9.71,
+    "ocr_time_ms": 150.1,
+    "reasoning_time_ms": 0.14,
+    "processing_time_ms": 168.08
+  },
+  "uncertainty": []
+}

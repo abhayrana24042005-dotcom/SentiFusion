@@ -1,0 +1,222 @@
+{
+  "image_analysis": {
+    "scene": {
+      "scene_type": "General / Everyday Environment",
+      "direct_observations": [
+        "Scene contains no visible human subjects",
+        "Visible primary objects: envelope, rule",
+        "Visual atmosphere is vibrant / cheerful / energetic"
+      ],
+      "contextual_interpretations": [
+        "The environment aligns with a general / everyday environment context."
+      ],
+      "observation_confidence": 0.92,
+      "interpretation_confidence": 0.84,
+      "summary": "Scene contains no visible human subjects | Visible primary objects: envelope, rule | Visual atmosphere is vibrant / cheerful / energetic -> The environment aligns with a general / everyday environment context."
+    },
+    "entities": [
+      {
+        "entity": "envelope",
+        "category": "non_living",
+        "subcategory": "object",
+        "location": "center",
+        "relative_size": "dominant",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.594,
+        "interactions": "positioned in context",
+        "importance": "primary"
+      },
+      {
+        "entity": "rule",
+        "category": "non_living",
+        "subcategory": "object",
+        "location": "center-left",
+        "relative_size": "medium",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.121,
+        "interactions": "positioned in context",
+        "importance": "secondary"
+      }
+    ],
+    "living_entities": [],
+    "non_living_entities": [
+      {
+        "entity": "envelope",
+        "category": "non_living",
+        "subcategory": "object",
+        "location": "center",
+        "relative_size": "dominant",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.594,
+        "interactions": "positioned in context",
+        "importance": "primary"
+      },
+      {
+        "entity": "rule",
+        "category": "non_living",
+        "subcategory": "object",
+        "location": "center-left",
+        "relative_size": "medium",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.121,
+        "interactions": "positioned in context",
+        "importance": "secondary"
+      }
+    ],
+    "actions": [
+      {
+        "action": "static scenic arrangement",
+        "performer": "environment",
+        "status": "still / stationary composition",
+        "confidence": 0.75,
+        "observable_evidence": "No dynamic human or mechanical movement detected"
+      }
+    ],
+    "relationships": [
+      {
+        "subject": "envelope",
+        "relationship": "situated within",
+        "object": "General / Everyday Environment",
+        "confidence": 0.78,
+        "evidence": "envelope positioned as dominant element within General / Everyday Environment background"
+      }
+    ],
+    "ocr": [],
+    "visual_emotions": [
+      {
+        "emotion": "Uplift / Energy",
+        "polarity": "Positive",
+        "confidence": 0.75,
+        "observable_evidence": "Warm, bright color palette and illuminated visual atmosphere."
+      }
+    ],
+    "explicit_content": {
+      "visual_elements": [
+        "envelope",
+        "rule"
+      ],
+      "detected_text": "None",
+      "scene_setting": "General / Everyday Environment"
+    },
+    "implicit_meaning": {
+      "meaning": "Routine visual documentation or contextual representation.",
+      "evidence_level": "DIRECT",
+      "supporting_evidence": [
+        "Standard visual elements without evident symbolic subtext"
+      ],
+      "confidence": 0.75
+    },
+    "symbolic_cues": [],
+    "possible_irony": {
+      "is_ironic": false,
+      "is_meme": false,
+      "evidence": "No clear visual incongruity or meme template detected within image alone.",
+      "confidence": 0.2
+    },
+    "visual_sentiment": {
+      "positive": 0.88,
+      "negative": 0.04,
+      "neutral": 0.08,
+      "dominant": "Positive",
+      "confidence": 88.0
+    },
+    "image_message": {
+      "message": "Neutral Information",
+      "confidence": 0.75,
+      "evidence": [
+        "Scene identified as General / Everyday Environment",
+        "Atmosphere characterized as Vibrant / Cheerful / Energetic"
+      ]
+    },
+    "uncertainties": []
+  },
+  "image": {
+    "hash": "3d8875ded7175f5bbc13159bc6485d960fccc7b0eb1e7c84a7d23261372cb7d7",
+    "description": "The image depicts a general / everyday environment scene without people visible , featuring envelope, rule. The visual atmosphere is vibrant / cheerful / energetic with no prominent text. The overall intent communicates neutral information evoking uplift / energy.",
+    "objects": [
+      {
+        "label": "envelope",
+        "confidence": 0.594
+      },
+      {
+        "label": "rule",
+        "confidence": 0.121
+      }
+    ],
+    "people_count": 0,
+    "faces_detected": 0,
+    "scene": "General / Everyday Environment",
+    "ocr_text": [],
+    "full_ocr_text": "",
+    "atmosphere": "Vibrant / Cheerful / Energetic",
+    "palette": [
+      "#228b22",
+      "#87ceea",
+      "#87cee9",
+      "#787878"
+    ],
+    "brightness": 137.0
+  },
+  "emotion_analysis": {
+    "primary": "Uplift / Energy",
+    "confidence": 0.75,
+    "evidence": [
+      "Warm, bright color palette and illuminated visual atmosphere."
+    ],
+    "facial_expression": "No faces visible",
+    "body_language": "Not enough visual evidence"
+  },
+  "sentiment_analysis": {
+    "positive": 0.88,
+    "negative": 0.04,
+    "neutral": 0.08,
+    "dominant": "Positive",
+    "confidence": 88.0
+  },
+  "message": {
+    "interpretation": "Neutral Information",
+    "confidence": 0.75,
+    "story": "The image communicates a message of neutral information centered around General / Everyday Environment."
+  },
+  "perspectives": {
+    "visual_perspective": "Visible entities: envelope, rule; Atmosphere: Vibrant / Cheerful / Energetic.",
+    "emotional_perspective": "Primary emotion is Uplift / Energy with 75% confidence.",
+    "contextual_perspective": "Setting is General / Everyday Environment with 0 subject(s).",
+    "social_perspective": "0 person(s) present (No faces visible).",
+    "textual_perspective": "No visible text detected.",
+    "semantic_perspective": "Communicating Neutral Information.",
+    "sentiment_perspective": "Evaluated as Positive (88% confidence)."
+  },
+  "elements": {
+    "positive_elements": [
+      "Warm/vibrant visual atmosphere"
+    ],
+    "negative_elements": [],
+    "neutral_elements": [
+      "General / Everyday Environment"
+    ],
+    "ambiguous_elements": []
+  },
+  "performance": {
+    "cache_hit": false,
+    "cache_type": "Fresh Computation",
+    "image_processing_time_ms": 0.39,
+    "vision_inference_time_ms": 10.49,
+    "ocr_time_ms": 153.54,
+    "reasoning_time_ms": 0.12,
+    "processing_time_ms": 168.38
+  },
+  "uncertainty": []
+}

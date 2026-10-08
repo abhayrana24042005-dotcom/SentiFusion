@@ -1,0 +1,188 @@
+{
+  "image_analysis": {
+    "scene": {
+      "scene_type": "General / Everyday Environment",
+      "direct_observations": [
+        "Scene contains no visible human subjects",
+        "Visible primary objects: envelope",
+        "Visual atmosphere is neutral / balanced"
+      ],
+      "contextual_interpretations": [
+        "The environment aligns with a general / everyday environment context."
+      ],
+      "observation_confidence": 0.92,
+      "interpretation_confidence": 0.84,
+      "summary": "Scene contains no visible human subjects | Visible primary objects: envelope | Visual atmosphere is neutral / balanced -> The environment aligns with a general / everyday environment context."
+    },
+    "entities": [
+      {
+        "entity": "envelope",
+        "category": "non_living",
+        "subcategory": "object",
+        "location": "center",
+        "relative_size": "dominant",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.03,
+        "interactions": "positioned in context",
+        "importance": "primary"
+      }
+    ],
+    "living_entities": [],
+    "non_living_entities": [
+      {
+        "entity": "envelope",
+        "category": "non_living",
+        "subcategory": "object",
+        "location": "center",
+        "relative_size": "dominant",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.03,
+        "interactions": "positioned in context",
+        "importance": "primary"
+      }
+    ],
+    "actions": [
+      {
+        "action": "static scenic arrangement",
+        "performer": "environment",
+        "status": "still / stationary composition",
+        "confidence": 0.75,
+        "observable_evidence": "No dynamic human or mechanical movement detected"
+      }
+    ],
+    "relationships": [
+      {
+        "subject": "envelope",
+        "relationship": "situated within",
+        "object": "General / Everyday Environment",
+        "confidence": 0.78,
+        "evidence": "envelope positioned as dominant element within General / Everyday Environment background"
+      }
+    ],
+    "ocr": [],
+    "visual_emotions": [
+      {
+        "emotion": "Neutral / Balanced",
+        "polarity": "Neutral",
+        "confidence": 0.7,
+        "observable_evidence": "Even lighting, steady composition, and absence of extreme affective cues."
+      }
+    ],
+    "explicit_content": {
+      "visual_elements": [
+        "envelope"
+      ],
+      "detected_text": "None",
+      "scene_setting": "General / Everyday Environment"
+    },
+    "implicit_meaning": {
+      "meaning": "Routine visual documentation or contextual representation.",
+      "evidence_level": "DIRECT",
+      "supporting_evidence": [
+        "Standard visual elements without evident symbolic subtext"
+      ],
+      "confidence": 0.75
+    },
+    "symbolic_cues": [],
+    "possible_irony": {
+      "is_ironic": false,
+      "is_meme": false,
+      "evidence": "No clear visual incongruity or meme template detected within image alone.",
+      "confidence": 0.2
+    },
+    "visual_sentiment": {
+      "positive": 0.15,
+      "negative": 0.15,
+      "neutral": 0.7,
+      "dominant": "Neutral",
+      "confidence": 70.0
+    },
+    "image_message": {
+      "message": "Neutral Information",
+      "confidence": 0.75,
+      "evidence": [
+        "Scene identified as General / Everyday Environment",
+        "Atmosphere characterized as Neutral / Balanced"
+      ]
+    },
+    "uncertainties": []
+  },
+  "image": {
+    "hash": "625e293b802b079e777476d53be82ae190e42ffcf6896b660758b0de433a0454",
+    "description": "The image depicts a general / everyday environment scene without people visible , featuring envelope. The visual atmosphere is neutral / balanced with no prominent text. The overall intent communicates neutral information evoking neutral / balanced.",
+    "objects": [
+      {
+        "label": "envelope",
+        "confidence": 0.03
+      }
+    ],
+    "people_count": 0,
+    "faces_detected": 0,
+    "scene": "General / Everyday Environment",
+    "ocr_text": [],
+    "full_ocr_text": "",
+    "atmosphere": "Neutral / Balanced",
+    "palette": [
+      "#808080",
+      "#c8c8c8",
+      "#7f7f7f",
+      "#858585"
+    ],
+    "brightness": 150.4
+  },
+  "emotion_analysis": {
+    "primary": "Neutral / Balanced",
+    "confidence": 0.7,
+    "evidence": [
+      "Even lighting, steady composition, and absence of extreme affective cues."
+    ],
+    "facial_expression": "No faces visible",
+    "body_language": "Not enough visual evidence"
+  },
+  "sentiment_analysis": {
+    "positive": 0.15,
+    "negative": 0.15,
+    "neutral": 0.7,
+    "dominant": "Neutral",
+    "confidence": 70.0
+  },
+  "message": {
+    "interpretation": "Neutral Information",
+    "confidence": 0.75,
+    "story": "The image communicates a message of neutral information centered around General / Everyday Environment."
+  },
+  "perspectives": {
+    "visual_perspective": "Visible entities: envelope; Atmosphere: Neutral / Balanced.",
+    "emotional_perspective": "Primary emotion is Neutral / Balanced with 70% confidence.",
+    "contextual_perspective": "Setting is General / Everyday Environment with 0 subject(s).",
+    "social_perspective": "0 person(s) present (No faces visible).",
+    "textual_perspective": "No visible text detected.",
+    "semantic_perspective": "Communicating Neutral Information.",
+    "sentiment_perspective": "Evaluated as Neutral (70% confidence)."
+  },
+  "elements": {
+    "positive_elements": [],
+    "negative_elements": [],
+    "neutral_elements": [
+      "General / Everyday Environment",
+      "Balanced visual tones without extreme polarity"
+    ],
+    "ambiguous_elements": []
+  },
+  "performance": {
+    "cache_hit": false,
+    "cache_type": "Fresh Computation",
+    "image_processing_time_ms": 0.76,
+    "vision_inference_time_ms": 11.31,
+    "ocr_time_ms": 182.34,
+    "reasoning_time_ms": 0.13,
+    "processing_time_ms": 198.02
+  },
+  "uncertainty": []
+}

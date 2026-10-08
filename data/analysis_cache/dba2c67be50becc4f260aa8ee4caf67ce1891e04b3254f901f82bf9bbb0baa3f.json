@@ -1,0 +1,320 @@
+{
+  "image_analysis": {
+    "scene": {
+      "scene_type": "Urban / Automotive / Road",
+      "direct_observations": [
+        "Scene contains no visible human subjects",
+        "Visible primary objects: ping-pong ball, golf ball, spotlight",
+        "Visual atmosphere is vibrant / cheerful / energetic"
+      ],
+      "contextual_interpretations": [
+        "The environment aligns with a urban / automotive / road context."
+      ],
+      "observation_confidence": 0.92,
+      "interpretation_confidence": 0.84,
+      "summary": "Scene contains no visible human subjects | Visible primary objects: ping-pong ball, golf ball, spotlight | Visual atmosphere is vibrant / cheerful / energetic -> The environment aligns with a urban / automotive / road context."
+    },
+    "entities": [
+      {
+        "entity": "ping-pong ball",
+        "category": "non_living",
+        "subcategory": "sports_equipment",
+        "location": "center",
+        "relative_size": "dominant",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.096,
+        "interactions": "positioned in context",
+        "importance": "primary"
+      },
+      {
+        "entity": "golf ball",
+        "category": "non_living",
+        "subcategory": "sports_equipment",
+        "location": "center-left",
+        "relative_size": "medium",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.076,
+        "interactions": "positioned in context",
+        "importance": "secondary"
+      },
+      {
+        "entity": "spotlight",
+        "category": "non_living",
+        "subcategory": "object",
+        "location": "center-right",
+        "relative_size": "medium",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.065,
+        "interactions": "positioned in context",
+        "importance": "secondary"
+      },
+      {
+        "entity": "traffic light",
+        "category": "non_living",
+        "subcategory": "object",
+        "location": "background",
+        "relative_size": "small",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.05,
+        "interactions": "positioned in context",
+        "importance": "background"
+      },
+      {
+        "entity": "wall clock",
+        "category": "non_living",
+        "subcategory": "object",
+        "location": "background",
+        "relative_size": "small",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.037,
+        "interactions": "positioned in context",
+        "importance": "background"
+      }
+    ],
+    "living_entities": [],
+    "non_living_entities": [
+      {
+        "entity": "ping-pong ball",
+        "category": "non_living",
+        "subcategory": "sports_equipment",
+        "location": "center",
+        "relative_size": "dominant",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.096,
+        "interactions": "positioned in context",
+        "importance": "primary"
+      },
+      {
+        "entity": "golf ball",
+        "category": "non_living",
+        "subcategory": "sports_equipment",
+        "location": "center-left",
+        "relative_size": "medium",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.076,
+        "interactions": "positioned in context",
+        "importance": "secondary"
+      },
+      {
+        "entity": "spotlight",
+        "category": "non_living",
+        "subcategory": "object",
+        "location": "center-right",
+        "relative_size": "medium",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.065,
+        "interactions": "positioned in context",
+        "importance": "secondary"
+      },
+      {
+        "entity": "traffic light",
+        "category": "non_living",
+        "subcategory": "object",
+        "location": "background",
+        "relative_size": "small",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.05,
+        "interactions": "positioned in context",
+        "importance": "background"
+      },
+      {
+        "entity": "wall clock",
+        "category": "non_living",
+        "subcategory": "object",
+        "location": "background",
+        "relative_size": "small",
+        "visible_attributes": [
+          "clearly visible"
+        ],
+        "quantity": 1,
+        "confidence": 0.037,
+        "interactions": "positioned in context",
+        "importance": "background"
+      }
+    ],
+    "actions": [
+      {
+        "action": "static scenic arrangement",
+        "performer": "environment",
+        "status": "still / stationary composition",
+        "confidence": 0.75,
+        "observable_evidence": "No dynamic human or mechanical movement detected"
+      }
+    ],
+    "relationships": [
+      {
+        "subject": "ping-pong ball",
+        "relationship": "situated within",
+        "object": "Urban / Automotive / Road",
+        "confidence": 0.78,
+        "evidence": "ping-pong ball positioned as dominant element within Urban / Automotive / Road background"
+      }
+    ],
+    "ocr": [],
+    "visual_emotions": [
+      {
+        "emotion": "Uplift / Energy",
+        "polarity": "Positive",
+        "confidence": 0.75,
+        "observable_evidence": "Warm, bright color palette and illuminated visual atmosphere."
+      }
+    ],
+    "explicit_content": {
+      "visual_elements": [
+        "ping-pong ball",
+        "golf ball",
+        "spotlight",
+        "traffic light"
+      ],
+      "detected_text": "None",
+      "scene_setting": "Urban / Automotive / Road"
+    },
+    "implicit_meaning": {
+      "meaning": "Routine visual documentation or contextual representation.",
+      "evidence_level": "DIRECT",
+      "supporting_evidence": [
+        "Standard visual elements without evident symbolic subtext"
+      ],
+      "confidence": 0.75
+    },
+    "symbolic_cues": [],
+    "possible_irony": {
+      "is_ironic": false,
+      "is_meme": false,
+      "evidence": "No clear visual incongruity or meme template detected within image alone.",
+      "confidence": 0.2
+    },
+    "visual_sentiment": {
+      "positive": 0.88,
+      "negative": 0.04,
+      "neutral": 0.08,
+      "dominant": "Positive",
+      "confidence": 88.0
+    },
+    "image_message": {
+      "message": "Neutral Information",
+      "confidence": 0.75,
+      "evidence": [
+        "Scene identified as Urban / Automotive / Road",
+        "Atmosphere characterized as Vibrant / Cheerful / Energetic"
+      ]
+    },
+    "uncertainties": []
+  },
+  "image": {
+    "hash": "dba2c67be50becc4f260aa8ee4caf67ce1891e04b3254f901f82bf9bbb0baa3f",
+    "description": "The image depicts a urban / automotive / road scene without people visible , featuring ping-pong ball, golf ball, spotlight. The visual atmosphere is vibrant / cheerful / energetic with no prominent text. The overall intent communicates neutral information evoking uplift / energy.",
+    "objects": [
+      {
+        "label": "ping-pong ball",
+        "confidence": 0.096
+      },
+      {
+        "label": "golf ball",
+        "confidence": 0.076
+      },
+      {
+        "label": "spotlight",
+        "confidence": 0.065
+      },
+      {
+        "label": "traffic light",
+        "confidence": 0.05
+      },
+      {
+        "label": "wall clock",
+        "confidence": 0.037
+      }
+    ],
+    "people_count": 0,
+    "faces_detected": 0,
+    "scene": "Urban / Automotive / Road",
+    "ocr_text": [],
+    "full_ocr_text": "",
+    "atmosphere": "Vibrant / Cheerful / Energetic",
+    "palette": [
+      "#23c55e",
+      "#ffffff",
+      "#fcfefd",
+      "#26c660"
+    ],
+    "brightness": 157.0
+  },
+  "emotion_analysis": {
+    "primary": "Uplift / Energy",
+    "confidence": 0.75,
+    "evidence": [
+      "Warm, bright color palette and illuminated visual atmosphere."
+    ],
+    "facial_expression": "No faces visible",
+    "body_language": "Not enough visual evidence"
+  },
+  "sentiment_analysis": {
+    "positive": 0.88,
+    "negative": 0.04,
+    "neutral": 0.08,
+    "dominant": "Positive",
+    "confidence": 88.0
+  },
+  "message": {
+    "interpretation": "Neutral Information",
+    "confidence": 0.75,
+    "story": "The image communicates a message of neutral information centered around Urban / Automotive / Road."
+  },
+  "perspectives": {
+    "visual_perspective": "Visible entities: ping-pong ball, golf ball, spotlight; Atmosphere: Vibrant / Cheerful / Energetic.",
+    "emotional_perspective": "Primary emotion is Uplift / Energy with 75% confidence.",
+    "contextual_perspective": "Setting is Urban / Automotive / Road with 0 subject(s).",
+    "social_perspective": "0 person(s) present (No faces visible).",
+    "textual_perspective": "No visible text detected.",
+    "semantic_perspective": "Communicating Neutral Information.",
+    "sentiment_perspective": "Evaluated as Positive (88% confidence)."
+  },
+  "elements": {
+    "positive_elements": [
+      "Warm/vibrant visual atmosphere"
+    ],
+    "negative_elements": [],
+    "neutral_elements": [
+      "Urban / Automotive / Road"
+    ],
+    "ambiguous_elements": []
+  },
+  "performance": {
+    "cache_hit": false,
+    "cache_type": "Fresh Computation",
+    "image_processing_time_ms": 0.43,
+    "vision_inference_time_ms": 9.29,
+    "ocr_time_ms": 159.19,
+    "reasoning_time_ms": 0.14,
+    "processing_time_ms": 173.22
+  },
+  "uncertainty": []
+}
